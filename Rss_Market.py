@@ -1,5 +1,6 @@
 import yfinance as yf
 import spacy
+from spacy.lang.pt.examples import sentences
 import pandas as pd
 import requests
 from bs4 import BeautifulSoup

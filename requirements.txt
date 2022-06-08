@@ -8,3 +8,4 @@ matplotlib>=3.3.2
 yfinance>=0.1.55
 seaborn>=0.11.0
 streamlit>=1.10.0
+pt_core_news_sm>=3.0.0
