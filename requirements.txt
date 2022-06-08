@@ -8,5 +8,5 @@ matplotlib>=3.5.1
 yfinance>=0.1.69
 seaborn>=0.11.0
 streamlit>=1.10.0
-click>=8
+click>=7
 https://github.com/explosion/spacy-models/releases/download/pt_core_news_sm-3.0.0/pt_core_news_sm-3.0.0.tar.gz#egg=pt_core_news_sm==3.0.0
