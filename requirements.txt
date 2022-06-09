@@ -1,3 +1,5 @@
+https://github.com/explosion/spacy-models/releases/download/pt_core_news_sm-3.3.0/pt_core_news_sm-3.3.0.tar.gz#egg=pt_core_news_sm==3.3.0
+
 spacy
 yfinance
 beautifulsoup4
