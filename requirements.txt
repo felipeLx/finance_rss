@@ -1,3 +1,4 @@
+spacy
 yfinance
 beautifulsoup4
 streamlit
