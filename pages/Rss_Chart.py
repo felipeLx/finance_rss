@@ -20,10 +20,10 @@ def read_dataframe():
 
 def extracting_table_generate_plot(page_name):
     url = "https://br.financas.yahoo.com/quote/" + page_name + "/history?p=" + page_name + "&.tsrc=fin-srch"
-    r_client = requests.get(url, headers={'User-Agent': 'Custom'})
    
     try:
-        soup_client = BeautifulSoup(r_client.content, 'html.parser')
+        r_client = requests.get(url, headers={'User-Agent': 'Custom'})
+        soup_client = BeautifulSoup(r_client.content, 'lxml')
         table_client = soup_client.find('table', attrs={'data-test': 'historical-prices', 'class': 'W(100%) M(0)'})
         df = pd.read_html(str(table_client), decimal=',', thousands='.')[0]
         
