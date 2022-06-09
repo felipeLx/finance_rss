@@ -1,11 +1,9 @@
 numpy
 pandas
 beautifulsoup4
-click
 spacy
 requests
 lxml
-typer
 matplotlib
 yfinance
 seaborn
