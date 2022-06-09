@@ -1,5 +1,3 @@
-from numpy import iterable
-from sqlalchemy import exists
 import yfinance as yf
 import spacy
 from spacy.lang.pt.examples import sentences
